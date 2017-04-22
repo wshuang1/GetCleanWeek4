@@ -1,5 +1,3 @@
-
-
 # Getting and Cleaning Data Course Project Week 4
 #
 
@@ -74,7 +72,7 @@ Data<-subset(Data,select=selectedNames)
 str(Data)
 
 ## Uses descriptive activity names to name the activities in the data set
-## Read descriptive activity via “activity_labels.txt”
+## Read descriptive activity via â€œactivity_labels.txtâ€
 
 activityLabels <- read.table(file.path(my_data_path, "activity_labels.txt"),header = FALSE)
 
